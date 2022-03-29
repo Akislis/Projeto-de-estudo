@@ -1,0 +1,99 @@
+body {
+    background: #9eaf83;
+}
+
+/* Estilo da header */
+
+header {
+    background: #9eaf83;
+}
+
+.caixaHeader {
+    position: relative;
+    padding: 15px;
+}
+
+.imagemLogo {
+    margin-left: 50px;
+}
+
+nav {
+    position: absolute;
+    right: 100px;
+    top: 80px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    font-size: 34px;
+    font-family: 'Patrick Hand';
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #f07f83;
+}
+
+/* Estilo do main */
+
+.backSobre {
+    width: 100%;
+}
+
+.sobre {
+    font-family: 'Patrick Hand';
+    text-align: center;
+    padding: 70px;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+}
+
+.sobre h2 {
+    font-size: 26px;
+    padding: 10px;
+}
+
+.videoSobre {
+    text-align: center;
+    font-family: 'Patrick Hand';
+    font-size: 26px;
+    padding: 2em;
+    background: linear-gradient(#9eaf83, #75a480);
+}
+
+.tituloVideo {
+    padding: 20px;
+}
+
+/* Estilo do Rodapé */
+
+footer {
+    text-align: center;
+    background: #75a480;
+    padding: 20px;
+}
+
+.logoRodape {
+    border: 2px thin #75a480;
+    border-radius: 70px;
+}
+
+.copyright {
+    padding: 10px;
+}
+
+/* Paleta de cores:
+
+.color1 { #3e3433 };
+.color2 { #f07f83 };
+.color3 { #b29a78 };
+.color4 { #9eaf83 };
+.color5 { #75a480 }; */
