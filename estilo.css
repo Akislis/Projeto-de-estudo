@@ -73,6 +73,48 @@ a:hover {
     padding: 20px;
 }
 
+/*Estilo da página de Arcanos*/
+
+.gradiante {
+    background: linear-gradient(#9eaf83, #75a480);
+}
+
+.blocoArcanos {
+    text-align: center;
+    padding: 155px;
+}
+
+.blocoArcanos li h2 {
+    transition: 1s;
+}
+
+.blocoArcanos li:hover h2 {
+    font-size: 40px;
+    opacity: 0.8;
+}
+
+.listaArcanos {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    background: url('arcanos.jpg');
+    background-size: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    box-shadow: 10px 10px 5px #3e3433;
+    margin: 0 1.5%;
+}
+
+.listaArcanos a {
+    color: white;
+    transition: 0.5s;
+}
+
+.listaArcanos a:hover {
+    color: #f07f83;
+}
+
 /* Estilo do Rodapé */
 
 footer {
@@ -92,8 +134,8 @@ footer {
 
 /* Paleta de cores:
 
-.color1 { #3e3433 };
-.color2 { #f07f83 };
-.color3 { #b29a78 };
-.color4 { #9eaf83 };
-.color5 { #75a480 }; */
+.color1 { #3e3433 } marronzinho;
+.color2 { #f07f83 } rosinha;
+.color3 { #b29a78 } marrom clarinho;
+.color4 { #9eaf83 } verde fundo principal;
+.color5 { #75a480 } verde rodapé; */
